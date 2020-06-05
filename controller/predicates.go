@@ -63,7 +63,6 @@ func podFitsOnNode(pod *v1.Pod, node v1.Node) (bool, []string, error) {
 }
 
 func LuckyPredicate(pod *v1.Pod, node v1.Node) (bool, []string, error) {
-	currentTime:=time.Now()
 	second:=time.Now().Second()
 	lucky := second%2 == 0
 	if lucky {
