@@ -5,4 +5,4 @@ clientConnection:
 algorithmSource:
   policy:
     file:
-      path: "/etc/kubernetes/scheduler-extender-policy.yaml" 
+      path: "/etc/kubernetes/scheduler-extender-policy.json" 
